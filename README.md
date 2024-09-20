@@ -1,4 +1,4 @@
-Voici un exemple de fichier `README.md` pour votre dépôt Git, qui inclut toutes les informations que vous avez demandées :
+
 
 ```markdown
 # Script d'Installation Kubernetes

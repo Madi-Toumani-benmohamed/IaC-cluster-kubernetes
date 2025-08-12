@@ -1,6 +1,3 @@
-
-
-```markdown
 # Script d'Installation Kubernetes
 
 Ce dépôt contient un script Bash pour installer Kubernetes sur des serveurs Ubuntu. Ce script configure et installe les prérequis nécessaires à Kubernetes, tels que `containerd` et les dépendances réseau.
@@ -78,13 +75,4 @@ Pour déboguer des problèmes réseau, vous pouvez consulter et modifier les dif
 ## Conclusion
 
 Ce script simplifie l'installation de Kubernetes sur des serveurs Ubuntu et vous permet de configurer rapidement un cluster Kubernetes avec un réseau Calico. N'oubliez pas d'ajuster les adresses réseau en fonction de votre infrastructure lors de l'installation du réseau pour les pods.
-```
 
-### Ce fichier `README.md` contient :
-- Les instructions pour lancer le script sur chaque serveur (master et workers).
-- La commande pour initialiser le cluster Kubernetes sur le nœud master.
-- Les étapes pour configurer `kubectl` après l'initialisation du cluster.
-- Le processus pour installer le réseau Calico et modifier son CIDR pour correspondre à l'architecture réseau du cluster.
-- Les informations sur l'emplacement des manifests Kubernetes pour faciliter le débogage.
-
-Vous pouvez ajouter ce fichier à votre dépôt Git afin de fournir une documentation claire pour les utilisateurs.
